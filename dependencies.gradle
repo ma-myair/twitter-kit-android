@@ -13,7 +13,7 @@ ext {
     dependency = [
             // Gradle plugins
             spoonGradlePlugin          : 'com.stanfy.spoon:spoon-gradle-plugin:1.0.4',
-            androidGradlePlugin        : 'com.android.tools.build:gradle:3.6.3',
+            androidGradlePlugin        : 'com.android.tools.build:gradle:4.1.0',
 
             // Mopub
             mopub                      : 'com.mopub:mopub-sdk-native-static:4.11.0@aar',
@@ -29,7 +29,7 @@ ext {
             androidTestingSupport      : 'androidx.test:runner:1.2.0',
             junit                      : 'junit:junit:4.12',
             equalsVerifier             : 'nl.jqno.equalsverifier:equalsverifier:2.2.1',
-            robolectric                : 'org.robolectric:robolectric:3.2.2',
+            robolectric                : 'org.robolectric:robolectric:3.8',
             mockito                    : 'org.mockito:mockito-core:2.2.0',
             dexmakerMockito            : 'com.linkedin.dexmaker:dexmaker-mockito:2.2.0',
 

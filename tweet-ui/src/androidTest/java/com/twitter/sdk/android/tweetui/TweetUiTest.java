@@ -51,7 +51,7 @@ public class TweetUiTest extends AndroidTestCase {
     }
 
     public void testGetVersion() {
-        assertEquals(BuildConfig.VERSION_NAME + "." + BuildConfig.BUILD_NUMBER,
+        assertEquals("myair-fork" + "." + BuildConfig.BUILD_NUMBER,
                 tweetUi.getVersion());
     }
 

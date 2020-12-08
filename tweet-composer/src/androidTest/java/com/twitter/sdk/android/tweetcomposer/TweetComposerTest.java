@@ -51,7 +51,7 @@ public class TweetComposerTest extends AndroidTestCase {
     }
 
     public void testGetVersion() {
-        final String version = BuildConfig.VERSION_NAME + "." + BuildConfig.BUILD_NUMBER;
+        final String version = "myair-fork" + "." + BuildConfig.BUILD_NUMBER;
         assertEquals(version, tweetComposer.getVersion());
     }
 

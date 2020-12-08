@@ -71,7 +71,7 @@ public class TweetUi {
     }
 
     public String getVersion() {
-        return BuildConfig.VERSION_NAME + "." + BuildConfig.BUILD_NUMBER;
+        return "myair-fork" + "." + BuildConfig.BUILD_NUMBER;
     }
 
     TweetRepository getTweetRepository() {

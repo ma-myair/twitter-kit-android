@@ -16,6 +16,8 @@
  */
 
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.ma-myair'
 
 android {
     compileSdkVersion rootProject.compileSdkVersion
@@ -62,7 +64,7 @@ android {
 
     testOptions {
         unitTests.returnDefaultValues = true
-        unitTests.includeAndroidResources true
+        unitTests.includeAndroidResources = true
     }
 }
 

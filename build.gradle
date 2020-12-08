@@ -15,17 +15,26 @@
  *
  */
 
+//plugins {
+//    id "com.github.plnice.canidropjetifier" version "0.5"
+//}
+
 apply from: rootProject.file('dependencies.gradle')
 
 subprojects { Project subproject ->
+
+//    configurations {
+//        compileClasspath
+//    }
+
     buildscript {
         repositories {
             jcenter()
             google()
-            maven { url 'https://maven.fabric.io/public' }
         }
         dependencies {
             classpath dependency.androidGradlePlugin
+            classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
         }
     }
 

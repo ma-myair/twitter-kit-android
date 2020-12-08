@@ -68,6 +68,9 @@ android {
 }
 
 dependencies {
+    implementation project(':twitter-core')
+    implementation project(':tweet-composer')
+    implementation project(':tweet-ui')
     implementation project(':twitter')
     implementation project(':twitter-mopub')
     implementation dependency.appCompat
