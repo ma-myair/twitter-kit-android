@@ -19,8 +19,9 @@ package com.twitter.sdk.android.tweetui;
 
 import android.content.Context;
 import android.database.DataSetObserver;
-import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.twitter.sdk.android.core.Callback;
 import com.twitter.sdk.android.core.Result;

@@ -18,10 +18,12 @@
 package com.example.app.tweetui;
 
 import android.os.Bundle;
-import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.ListFragment;
 
 import com.example.app.R;
 import com.twitter.sdk.android.tweetui.SearchTimeline;
@@ -32,7 +34,7 @@ import com.twitter.sdk.android.tweetui.TweetTimelineListAdapter;
  */
 public class SearchTimelineFragment extends ListFragment {
 
-    public static SearchTimelineFragment newInstance() {
+    public static Fragment newInstance() {
         return new SearchTimelineFragment();
     }
 

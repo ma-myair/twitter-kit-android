@@ -18,9 +18,10 @@
 package com.twitter.sdk.android.tweetui;
 
 import android.content.Context;
-import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.viewpager.widget.PagerAdapter;
 
 import com.squareup.picasso.Picasso;
 import com.twitter.sdk.android.core.models.MediaEntity;

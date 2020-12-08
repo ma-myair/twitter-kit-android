@@ -18,8 +18,9 @@
 package com.twitter.sdk.android.tweetui;
 
 import android.os.Handler;
-import android.support.v4.util.LruCache;
 import android.text.TextUtils;
+
+import androidx.collection.LruCache;
 
 import com.twitter.sdk.android.core.Callback;
 import com.twitter.sdk.android.core.Result;

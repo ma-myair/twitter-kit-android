@@ -18,10 +18,12 @@
 package com.example.app.tweetui;
 
 import android.os.Bundle;
-import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.ListFragment;
 
 import com.example.app.R;
 import com.example.app.twittercore.TwitterCoreMainActivity;
@@ -46,7 +48,7 @@ import java.io.InputStreamReader;
  */
 public class ListTimelineFragment extends ListFragment {
 
-    public static ListTimelineFragment newInstance() {
+    public static Fragment newInstance() {
         return new ListTimelineFragment();
     }
 

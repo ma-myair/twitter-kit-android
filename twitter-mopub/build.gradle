@@ -71,10 +71,11 @@ dependencies {
     api (dependency.mopub) {
         transitive = true
     }
+    implementation 'com.android.support:support-annotations:23.1.1'
 
-    testCompile dependency.mockito
-    testCompile dependency.junit
-    testCompile(dependency.robolectric) {
+    testImplementation dependency.mockito
+    testImplementation dependency.junit
+    testImplementation(dependency.robolectric) {
         exclude group: 'commons-logging', module: 'commons-logging'
         exclude group: 'org.apache.httpcomponents', module: 'httpclient'
     }
